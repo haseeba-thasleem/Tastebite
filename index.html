@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tastebite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <!------favicon------>
+  <link rel="icon" type="image/png" href="./images/logo.png">
+
+</head>
+
+<body class="index-page">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="./index.html"><img class="logo" src="./images/logo.png" alt="">Tastebite</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./recipies.html">Recipes</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero d-flex align-items-center text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Discover Delicious Recipes</h1>
+      <p>Cook, eat, enjoy 🍔</p>
+      <a href="./recipies.html" class="btn btn-warning btn-lg">Browse Recipes</a>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4" id="popular">Popular Recipes</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4 popular-recipe-card">
+          <div class="card shadow">
+            <img src="./images/chocolate cake.jpeg" class="card-img-top recipe-img">
+            <div class="card-body">
+              <h5>Chocolate Cake</h5>
+              <a href="./chocolate-cake.html" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 popular-recipe-card">
+          <div class="card shadow">
+            <img src="./images/shawarma.jfif" class="card-img-top recipe-img">
+            <div class="card-body">
+              <h5>Mexican Shawarma</h5>
+              <a href="./mexican-shawarma.html" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 popular-recipe-card">
+          <div class="card shadow">
+            <img src="./images/mac-&-cheese.png" class="card-img-top recipe-img">
+            <div class="card-body">
+              <h5>Mac & Cheese</h5>
+              <a href="./mac&cheese.html" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- FOOD CATEGORIES -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center fw-bold mb-4" id="categories">Explore by Category</h2>
+
+          <div class="row g-4">
+
+            <!-- Breakfast -->
+               <div class="col-md-3">
+            <a class="text-decoration-none text-dark" href="./breakfast.html">
+              <div class="category-card text-center">
+                <img src="./images/dosa-img.jfif" class="img-fluid">
+                <h5>Breakfast</h5>
+                <p>Start your day fresh ☀️</p>
+              </div>
+            </a>
+                </div>
+
+            <!-- Lunch -->
+            <div class="col-md-3">
+                <a class="text-decoration-none text-dark" href="./lunch.html">
+              <div class="category-card text-center">
+                <img src="./images/lunch.jpg" class="img-fluid">
+                <h5>Lunch</h5>
+                <p>Healthy & tasty meals 🍲</p>
+              </div>
+              </a>
+            </div>
+
+            <!-- Dinner -->
+            <div class="col-md-3">
+                <a class="text-decoration-none text-dark" href="./dinner.html">
+              <div class="category-card text-center">
+                <img src="./images/dinner.jpg" class="img-fluid">
+                <h5>Dinner</h5>
+                <p>Warm & filling food 🌙</p>
+              </div>
+              </a>
+            </div>
+
+            <!-- Desserts -->
+            <div class="col-md-3">
+                <a class="text-decoration-none text-dark" href="./desserts.html">
+              <div class="category-card text-center">
+                <img src="./images/dessert.jpg" class="img-fluid">
+                <h5>Desserts</h5>
+                <p>Sweet treats 🍰</p>
+              </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </section>
+
+  <footer class="bg-dark text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- Brand -->
+        <div class="col-md-4 mb-4">
+          <h4 class="fw-bold">Tastebite</h4>
+          <p>Discover delicious recipes from around the world. Cook, eat & enjoy every bite! 🍔</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="recipies.html" class="text-light text-decoration-none">Recipes</a></li>
+            <li><a href="#popular" class="text-light text-decoration-none">Popular</a></li>
+            <li><a href="#categories" class="text-light text-decoration-none">Categories</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Contact Us</h5>
+          <p>Email: support@tastebite.com</p>
+          <p>Instagram: @tastebite</p>
+          <p>Location: India 🇮🇳</p>
+        </div>
+
+      </div>
+
+      <hr class="border-light">
+
+      <div class="text-center">
+        <p class="mb-0">© 2026 Tastebite | All Rights Reserved</p>
+        <p class="mb-0">Designed By <span class="text-warning fw-bold fs-5">Haseeba</span></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
